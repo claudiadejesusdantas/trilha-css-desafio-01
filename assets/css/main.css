@@ -1,0 +1,30 @@
+main{
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(10,18,255,.8),rgb(0,0,0));
+}
+
+#course-content{
+    display: block;
+    height: 600px;
+    text-align: center;
+    color: #fafafa;
+}
+
+#course-content h2{
+    background-color:  linear-gradient(rgba(0,0,0, .6),rgba(49, 168, 221, 0.2),rgba(0,0,0, .6));
+}
+
+#course-content h2{
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 150px 0 0 0;
+}
+.module{
+    
+}
+
+.modules-list span{
+    color:#33A8DB;
+}
