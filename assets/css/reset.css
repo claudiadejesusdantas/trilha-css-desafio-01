@@ -3,7 +3,8 @@
 *{
     font-family: "Raleway",sans-serif;
     font-weight: normal;
-    box-sizing: content-box;
+    font-size: 1.25rem;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* background-color: #000; */
