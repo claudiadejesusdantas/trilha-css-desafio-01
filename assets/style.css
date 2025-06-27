@@ -1,8 +1,4 @@
-*{
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-}
+@import url(reset.css);
 
 .banner{
     align-items: center;
@@ -21,10 +17,14 @@
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(#3BA1CD,#1572B7);
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .banner-content p{
-    width: 50%;
+    padding: 0.5em;
+    text-align: center;
+    width: 28em;
 }
 
 .banner-content button{
