@@ -1,0 +1,19 @@
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50,168,219,.0), rgba(50, 168, 219, 0.2));
+    border-top: 1px solid #33A8DB;
+}
+
+footer img{
+    width: 20em;
+}
+
+footer p {
+    background-color: transparent;
+}
+
+footer a{
+    color: #33A8DB;
+    font-weight: bold;
+}
