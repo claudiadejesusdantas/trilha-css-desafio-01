@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    * {
+        display: block;
+        width: 100%;
+        text-align: center; 
+    }
+
+    header, #course-content , #transform-world, #professional-challenges{
+        margin: 0 auto;
+    }
+
+    #course-content h2{
+        font-size: 1.5em;
+    }
+
+    .banner-content {
+        text-align: center; 
+    }
+
+    .banner-content p{
+        width: 80%;
+        word-wrap: break-word;
+    }
+
+    .logo img {
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+
+    #transform-world p {
+        font-size: 1.5em;
+        margin: 0 auto;
+
+    }
+    
+    #transform-world {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .modules-list {
+        display: block;
+        padding: 0;
+    }
+
+    .modules-list .module {
+        width: 80%; 
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    #professional-challenges h2{
+        font-size: 1.5em;
+    }
+
+    footer {
+        align-items: center;
+        text-align: center; 
+        padding: 10px 0;
+    }
+    
+    footer img {
+        margin: 0 auto;
+        width: 50%;
+        max-width: 100%;
+    }
+}
