@@ -1,16 +1,13 @@
-main{
-    background-image: linear-gradient(rgba(0,0,0,.2), rgba(10,18,255,.8),rgb(0,0,0));
-}
-
-#course-content{
-    display: block;
-    height: 600px;
+#course-content, #professional-challenges{
+    flex: 1;
     text-align: center;
     color: #fafafa;
+    background-color:  rgba(0,0,0, .8);
+    padding: 3em 3em;
 }
 
-#course-content h2{
-    background-color:  linear-gradient(rgba(0,0,0, .6),rgba(49, 168, 221, 0.2),rgba(0,0,0, .6));
+#course-content h2 {
+    background-color: red;    
 }
 
 #course-content h2{
@@ -19,12 +16,18 @@ main{
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding: 150px 0 0 0;
 }
 .module{
-    
+    justify-content: center;
+    border: 1px solid #33A8DB;
+    padding: 30px;
+    background-image: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0,0,0, .7);
+    border-radius: 100px;
+    width: 30em;
+    margin-top: 1em;
 }
 
-.modules-list span{
+.modules-list div span{
     color:#33A8DB;
 }
