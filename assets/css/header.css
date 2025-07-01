@@ -11,19 +11,28 @@
 }
 
 .banner-content{
+    background-color: transparent;
     color: #fff;
-    margin: auto;
     justify-items: center;
+    margin: auto;
     text-align: center;
 }
 
 .banner-content img{
-    width: 5em;
-    height: 5em;
+    background-color: transparent;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    width: 100%;
+}
+
+.banner-content .logo{
     background-color: rgba(0, 0, 0, .2);
     border-radius: 50%;
-    object-fit: contain;
-    padding: 25px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 16px;
+    width: 260px;
 }
 
 .banner-content h1{
@@ -40,6 +49,7 @@
     margin: 1.5em 0.5em 0.9em;
     text-align: center;
     width: 50rem;
+    background-color: transparent;
 }
 
 .banner-content button{
